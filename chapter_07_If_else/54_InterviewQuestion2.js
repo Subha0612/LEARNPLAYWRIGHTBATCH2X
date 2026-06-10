@@ -1,0 +1,6 @@
+let x = 10;
+if(x > 5)
+    console.log(" X is a bigger number");
+
+
+// Single if is allowed. 
