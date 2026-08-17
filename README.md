@@ -13,6 +13,7 @@ This repository contains JavaScript practice files and learning notes organized 
 - [chapter_07_If_else](chapter_07_If_else/README.md): Conditional statements and decision-making examples
 - [chapter_08_Switch_Statement](chapter_08_Switch_Statement/README.md): Switch-case logic and examples
 - [chapter_09_UserInput](chapter_09_UserInput/README.md): Reading input from the user in Node.js
+- [chapter_10_Loops](chapter_10_Loops/README.md): For loops, while loops, do-while loops, and loop control statements
 
 ## Prerequisites
 
