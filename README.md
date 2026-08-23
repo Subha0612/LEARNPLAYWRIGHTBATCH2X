@@ -32,6 +32,9 @@ A comprehensive JavaScript learning resource containing practice files, code exa
 - [chapter_09_UserInput](chapter_09_UserInput/README.md): Reading user input in Node.js, readline module, prompt-sync library
 - [chapter_10_Loops](chapter_10_Loops/README.md): For, while, do-while loops; for-in, for-of, forEach; break and continue statements
 
+### Arrays
+- [chapter_11_Arrays](chapter_11_Arrays/): Creating, accessing, updating, searching, iterating, transforming, slicing, concatenating, and checking arrays
+
 ## Prerequisites
 
 Before you start, ensure you have:
@@ -77,6 +80,27 @@ node chapter_04_Javascript_Concepts/09_var_let_const.js
 5. Practice **Chapter 7-8** for control flow and decision-making
 6. Complete **Chapter 9** to handle user interactions
 7. Master **Chapter 10** for loops and iteration
+9. Learn **Chapter 11** to work with arrays and collections
+
+## Arrays Concepts
+
+Chapter 11 introduces JavaScript arrays as ordered, zero-indexed collections. The examples progress from basic syntax to common operations used in everyday programs and test automation.
+
+- **Create arrays** with array literals and store multiple values in one variable (`83_Array.js`, `84_Arrays.js`)
+- **Access and update elements** with zero-based indexes and the `length` property (`85_Access_Array.js`)
+- **Add and remove elements** with `push`, `pop`, `unshift`, and `shift` (`86_Arrays_Adding_Remove.js`, `87_Adding_Remove2.js`)
+- **Apply arrays to real examples** such as managing a list of values (`88_REAL_Example.js`)
+- **Search arrays** with methods such as `indexOf`, `includes`, `find`, and related checks (`89_Searching.js`)
+- **Iterate over values** using loops and `forEach` (`90_Iterate.js`)
+- **Transform data** with methods such as `map`, `filter`, and `reduce` (`91_Transform_Array.js`)
+- **Copy and combine arrays** with `slice` and `concat` (`93_Slicing.js`, `94_Concat_array.js`)
+- **Check array values and types** with built-in array checking methods (`92_Arrays.js`, `95_Array_Checking.js`)
+
+Run an example from the repository root with:
+
+```bash
+node chapter_11_Arrays/95_Array_Checking.js
+```
 
 ## Tips for Learning
 
