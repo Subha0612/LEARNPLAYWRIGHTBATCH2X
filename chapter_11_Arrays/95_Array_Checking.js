@@ -1,0 +1,24 @@
+// checking arrays 
+
+// check if soemthing IS an array
+
+let result = Array. isArray([1,2,3]);
+console.log(result);
+
+ let results1 = Array.isArray("a"); //[]
+ console.log(results1);
+
+// every & Some
+
+[80, 90, 85].every(s => s >=70); // true 
+[80, 60, 85].every(s => s >= 70); // false
+
+// playwright API 
+[ 200, 201,203].every(statusCode => statusCode > 200);
+
+// some — AT LEAST ONE must pass
+[80, 60, 85].some(s => s < 70); // true
+[80, 90, 85].some(s => s < 70); // false
+
+
+//arrow : s => s >= 70
